@@ -1,26 +1,26 @@
 function draw() {
   
-background(102,102,102);
+background(0,222,255);
   stroke(0);
 //black
-  fill(0)
-  stroke(0)
+  fill(225,mouseY*225/320,mouseY*225/210)
+  stroke(225,mouseY*225/320,mouseY*225/210)
     rect(90,220,20,10);
-  fill(0)
+
     rect(70,230,50,10);
-  fill(0)
+  
     rect(60,240,70,10);
-  fill(0)
+  
     rect(50,250,40,20);
-  fill(0)  
+  
     rect(40,270,20,20);
-  fill(0)  
+  
     rect(50,290,20,10);
-  fill(0)
+  
     rect(70,270,10,10);
-  fill(0)  
+   
     rect(110,260,10,20);
-  fill(0)
+  
  //yellow
   fill(250,175,85);
   stroke(250,175,85);
@@ -124,9 +124,9 @@ stroke(255)
 
      
 
-      stroke(0);
+      stroke(225,mouseY*225/50,mouseY*225/410);
 
-      fill(0);
+      fill(225,mouseY*225/50,mouseY*225/410);
 
 
 
@@ -158,9 +158,9 @@ stroke(255)
 
     
 
-      stroke(253,176,86);
+      stroke(255,mouseY*255/600,mouseY*255/380);
 
-      fill(253,176,86);
+      fill(255,mouseY*255/600,mouseY*255/380);
 
 
 
@@ -309,19 +309,19 @@ stroke(255)
 //jinsou
 //black
 
-  fill(0)
-  stroke(0)
+  fill(225,mouseY*225/50,mouseY*225/41)
+  stroke(225,mouseY*225/50,mouseY*225/41)
     rect(270,50,10,20);
-  fill(0)
+
     rect(230,140,60,10);
-  fill(0)
+
     rect(240,150,10,10);
-  fill(0)
+  
    rect(260,150,10,10);
 
  //yellow
-    fill(250,196,0);
-  stroke(250,196,0);
+    fill(225,mouseY*225/250,mouseY*225/310);
+  stroke(225,mouseY*225/250,mouseY*225/310);
   rect(220,20,60,10);
     rect(210,30,80,20);    
     rect(200,50,60,10);
@@ -381,8 +381,8 @@ stroke(184,26,42);
 //sen'on
  // black
 
-  fill(0);
-  stroke(0);
+  fill(225,mouseY*225/200,mouseY*225/100);
+  stroke(225,mouseY*225/200,mouseY*225/100);
   rect(60,20,60,10);
   rect(50,30,80,10);
   rect(50,50,40,10);
@@ -479,8 +479,8 @@ rect(400,320,50,10);
 
  
 
-fill(101,218,101);
-stroke(101,218,101);
+fill(225,mouseY*225/300,mouseY*225/410);
+stroke(225,mouseY*225/300,mouseY*225/410);
 
 rect(420,240,40,10);
 rect(410,250,30,20);
@@ -572,10 +572,10 @@ rect(430,350,40,10);
 for (var x = 1; x <= 8; x++)
 
 var size=Math.abs(mouseX - 320);
-  ellipse(320, 240, mouseX, mouseY);
-  ellipse(mouseX, mouseY, mouseX, mouseY);
-fill(225,640*225,480*225)
-ellipse(mouseY, mouseX, mouseX, mouseY);
+
+  fill(225,mouseY*225/500,mouseY*225/410);
+  ellipse(mouseX, mouseY, mouseX/15, mouseY/15);
+
 
 } 
 
